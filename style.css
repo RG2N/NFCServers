@@ -166,3 +166,9 @@ th {
 .italic {
   font-style: italic;
 }
+
+.header {
+    background-color: #bdbdbd;
+    color: #000000;
+    font-family: 'Copperplate', Fantasy;
+}
