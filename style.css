@@ -172,3 +172,7 @@ th {
     color: #000000;
     font-family: 'Copperplate', Fantasy;
 }
+
+.nobull {
+  list-style-type: none;
+ }
