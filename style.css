@@ -221,6 +221,10 @@ th {
     float: left;
 }
 
+.footer-info {
+    float: right;
+}
+
 .nobull {
   list-style-type: none;
  }
