@@ -215,7 +215,10 @@ th {
     background-color: #bdbdbd;
     color: #000000;
     font-family: 'Copperplate', Fantasy;
-    float: right;
+}
+
+.footer-copyright {
+    float: left;
 }
 
 .nobull {
