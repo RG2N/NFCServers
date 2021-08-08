@@ -211,6 +211,13 @@ th {
     font-family: 'Copperplate', Fantasy;
 }
 
+.footer {
+    background-color: #bdbdbd;
+    color: #000000;
+    font-family: 'Copperplate', Fantasy;
+    float: right;
+}
+
 .nobull {
   list-style-type: none;
  }
