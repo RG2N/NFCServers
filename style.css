@@ -18,7 +18,7 @@
 
 body {
   font-family: Minecraftia;
-  background-color: gray;
+  background-color: #bdbdbd;
   height: 100%;
   margin: center;
 }
@@ -207,14 +207,14 @@ th {
 }
 
 .header {
-    background-color: gray;
-    color: gray;
+    background-color: #bdbdbd;
+    color: #000000;
     font-family: 'Copperplate', Fantasy;
 }
 
 .footer {
-    background-color: gray;
-    color: gray;
+    background-color: #bdbdbd;
+    color: #000000;
     font-family: 'Copperplate', Fantasy;
 }
 
