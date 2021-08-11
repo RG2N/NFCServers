@@ -207,13 +207,13 @@ th {
 }
 
 .header {
-    background-color: #bdbdbd;
+    background-color: darkgray;
     color: #000000;
     font-family: 'Copperplate', Fantasy;
 }
 
 .footer {
-    background-color: #bdbdbd;
+    background-color: darkgray;
     color: #000000;
     font-family: 'Copperplate', Fantasy;
 }
