@@ -28,7 +28,6 @@ body {
 }
 
 input[type=text], select {
-    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -38,7 +37,6 @@ input[type=text], select {
   }
   
   input[type=submit] {
-    width: 100%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -55,4 +53,34 @@ input[type=text], select {
   label {
       font-weight: bold;
       font-size: 14px;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("IMG/parallax.png");
+  
+    /* Set a specific height */
+    min-height: 150px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax2 {
+    /* The image used */
+    background-image: url("IMG/parallax2.png");
+  
+    /* Set a specific height */
+    min-height: 150px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
   }
