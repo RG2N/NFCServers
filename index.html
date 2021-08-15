@@ -18,8 +18,8 @@
     </script>
 </head>
 <body>
-    <div class="parallax"></div>
     <div id="header"></div>
+    <div class="parallax"></div>
     <center>
         <div id="SECTION-WhoAreWe">
             <h1>
@@ -66,16 +66,24 @@
                 <p>
                   <input type="text" name="email" />
                 </p>
-                <label>Your Company: </label>
+                <label>Your Company: * If applicable.</label>
                 <p>
                     <input type="text" name="company" />
                 </p>
-                <label>Your Role: </label>
+                <label>Your Role: * If applicable.</label>
                 <p>
                     <select name="role[]" multiple>
                         <option value="CEO">CEO</option>
                         <option value="CFO">CFO</option>
                         <option value="Other...">Other...</option>
+                    </select>
+                </p>
+                <label>Server Type: </label>
+                <p>
+                    <select name="servertype[]" multiple>
+                        <option value="minecraft">Minecraft</option>
+                        <option value="csgo">Counter Strike: Global Offensive</option>
+                        <option value="other">Request Game</option>
                     </select>
                 </p>
                 <label>Message: </label>
