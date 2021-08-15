@@ -57,7 +57,7 @@ input[type=text], select {
 
   .parallax {
     /* The image used */
-    background-image: url("IMG/parallax.png");
+    background-image: url("http://cdn.nfcservers.com/parallax.png");
   
     /* Set a specific height */
     min-height: 150px;
@@ -71,7 +71,7 @@ input[type=text], select {
 
   .parallax2 {
     /* The image used */
-    background-image: url("IMG/parallax2.png");
+    background-image: url("http://cdn.nfcservers.com/parallax2.png");
   
     /* Set a specific height */
     min-height: 150px;
@@ -104,4 +104,10 @@ input[type=text], select {
       font-size: 15px;
       cursor: pointer;
       padding: 15px 15px;
+  }
+
+  .serverlist {
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
   }
