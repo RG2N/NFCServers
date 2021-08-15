@@ -24,15 +24,17 @@
             <h1>
                 What Games Do We Support?
             </h1>
-            <div class="img1">
-                <img src="IMG/Minecraft.jpg" alt="Minecraft" width="64" height="64">
-                <p>Servers: 2</p>
-                <p>Max Servers: 10</p>
-            </div>
-            <div class="img1">
-                <img src="IMG/CSGO.png" alt="Counter Strike: Global Offensive" width="64" height="64">
-                <p>Servers: 2</p>
-                <p>Max Servers: 10</p>
+            <div class="container">
+                <div class="img1">
+                    <img src="IMG/Minecraft.jpg" alt="Minecraft" width="64" height="64">
+                    <p>Servers: 2</p>
+                    <p>Max Servers: 10</p>
+                </div>
+                <div class="img1">
+                    <img src="IMG/CSGO.png" alt="Counter Strike: Global Offensive" width="64" height="64">
+                    <p>Servers: 2</p>
+                    <p>Max Servers: 10</p>
+                </div>
             </div>
         </div>
         <div id="SECTION-WantAPersonalServer">
@@ -40,6 +42,31 @@
                 Want A Personal Server Hosted By NFC?
             </h1>
             <p>Currently all hosted servers by us are free!</p>
+            <h3>Request a server:</h3>
+            <form name="Server" method="POST" data-netlify="true">
+                <p>
+                  <label>Your Name: <input type="text" name="name" /></label>   
+                </p>
+                <p>
+                  <label>Your Email: <input type="text" name="email" /></label>
+                </p>
+                <p>
+                    <label>Your Company: <input type="text" name="company" /></label>
+                  </p>
+                <p>
+                  <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">CEO</option>
+                    <option value="follower">CFO</option>
+                    <option value="follower">Other...</option>
+                  </select></label>
+                </p>
+                <p>
+                  <label>Message: <input type="text" name="message"></textarea></label>
+                </p>
+                <p>
+                  <input type="submit"></button>
+                </p>
+              </form>
         </div>
     </center>
 </body>

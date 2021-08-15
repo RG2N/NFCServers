@@ -1,5 +1,16 @@
 a {
     color: #7289DA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7289DA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7289DA;
+    text-decoration: underline;
 }
 
 body {
@@ -7,6 +18,41 @@ body {
 }
 
 .img1 {
-    float: left;
     padding-left: 10px;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }  
+
+  label {
+      font-weight: bold;
+      font-size: 14px;
+  }
