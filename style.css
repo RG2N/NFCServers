@@ -24,7 +24,7 @@ body {
 .container {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 input[type=text], select {
@@ -83,4 +83,7 @@ input[type=text], select {
     background-size: cover;
     width: 100%;
     padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
