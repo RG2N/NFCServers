@@ -111,3 +111,7 @@ input[type=text], select {
       color: white;
       font-size: 14px;
   }
+
+  h4 {
+      padding-left: 10px;
+  }
