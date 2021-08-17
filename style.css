@@ -115,3 +115,7 @@ input[type=text], select {
   h4 {
       padding-left: 10px;
   }
+
+  input[type="checkbox"][readonly] {
+    pointer-events: none;
+  }
